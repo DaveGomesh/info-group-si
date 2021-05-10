@@ -5,40 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <title>Informações do Grupo 3º Período de SI</title>
+        <script src="js/carregar-hearder.js"></script>
+        <script src="js/carregar-footer.js"></script>
+        <title>Informações do Grupo 4º Período de SI</title>
     </head>
 
-    <body>
-        <header>        
-            <div class="container-fluid p-3 bg-primary text-white">
-                <div class="container">
-                    <h1>Informações do Grupo</h1>
-                    <p>Sistemas de Informação - 3º Período</p>
-                </div>
-            </div>
-            
-            <div class="container-fluid p-0">
-                <div class="container p-0">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html">HOME</a>
-                        </li>
-
-                        <li class="nav-item">
-                          <a class="nav-link" href="contatos.html">Contatos</a>
-                        </li>
-    
-                        <li class="nav-item">
-                          <a class="nav-link" href="horarios.html">Horários</a>
-                        </li>
-    
-                        <li class="nav-item">
-                          <a class="nav-link active" href="sobre.html">Sobre</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </header>
+    <body onload="carregarHeader('Sobre')">
+        <header id="cabecalho"></header>
         
         <main>
             <div class="container-sm p-3 border">
@@ -69,7 +42,7 @@
 
                 <h2>Por quem?</h2>
 
-                <p>Todo o site foi desenvolvido pelo aluno <strong>David Gomes</strong>, do 3º Período de Sistemas de Informação (IFMA).</p>
+                <p>Todo o site foi desenvolvido pelo aluno <strong>David Gomes</strong>, do 4º Período de Sistemas de Informação (IFMA).</p>
 
                 <hr>
 
@@ -87,18 +60,10 @@
             </div>
         </main>
 
-        <footer>
-            <div class="contaneir-fluid bg-light pt-5 pb-5">
-                <div class="container">
-                    <div class="media p-3">
-                        <img src="images/icons8_male_user_127px.png" alt="John Doe" class="mr-3" style="width:60px;">
-                        <div class="media-body">
-                          <h5 class="mt-1">David Gomesh <small><i>Atualizado em 13 de Janeiro de 2021</i></small></h5>
-                          <p>Copyright &copy; 2021 David Gomesh</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </footer>
+        <footer id="rodape"></footer>
+
+        <script>
+            carregarFooter();
+        </script>
     </body>
 </html>
