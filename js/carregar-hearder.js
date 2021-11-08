@@ -3,7 +3,7 @@ function carregarHeader(paginaAtiva){
         <div class="container-fluid p-3 bg-primary text-white">
             <div class="container">
                 <h1>Informações do Grupo</h1>
-                <p>Sistemas de Informação - 4º Período</p>
+                <p>Sistemas de Informação - 5º Período</p>
             </div>
         </div>
     
